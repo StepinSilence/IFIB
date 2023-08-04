@@ -84,6 +84,12 @@ You have two ways to start the training process.
 After completing the model training or placing provided checkpoint in ```model```, you can evaluate these TPP models on various tasks. Like the training process, you have two ways to start the evaluation task: 1. directly use ```train.py```. Please refers to the python files in ```parameter_set/TPP``` and guides from ```python3 train.py TPP_plot --help```. 2. use ```batch_task_worker.py``` to execute multiple evaluation tasks one by one following the commands in ```parameter_set/TPP```. 
 
 
+### Q&As:
+1. What is ```CIFIB``` and ```IFIB```? 
+```CIFIB``` is the old name of ```IFIB-N```, while ```IFIB``` refers to ```IFIB-C```.
+The reason is we changed the name of two proposed model in the paper after we finished all experiments.
+
+
 ### LICENSE
 
 All codes are licensed under the MIT LICENSE.
