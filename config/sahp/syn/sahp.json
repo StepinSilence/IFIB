@@ -1,0 +1,10 @@
+{
+    "d_qk": 16,
+    "d_v": 16,
+    "d_input": 16,
+    "d_rnn": 32, 
+    "d_hidden": 64,
+    "n_layers": 3,
+    "n_head": 4,
+    "dropout": 0.1
+}

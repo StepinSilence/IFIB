@@ -1,0 +1,11 @@
+{
+    "d_qk": 16,
+    "d_v": 16,
+    "d_input": 16,
+    "d_rnn": 16, 
+    "d_hidden": 32,
+    "n_layers": 3,
+    "n_head": 3,
+    "dropout": 0.1,
+    "monte_carlo_resolution": 200
+}

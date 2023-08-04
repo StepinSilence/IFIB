@@ -1,6 +1,6 @@
 # Intensity-free Integral-based Learning of Marked Temporal Point Processes
 
-This is the codebase for paper [Intensity-free Integral-based Learning of Marked Temporal Point Processes].
+This is the codebase for paper [Intensity-free Integral-based Learning of Marked Temporal Point Processes]().
 
 
 ### Directory Structure
@@ -16,7 +16,7 @@ This is the codebase for paper [Intensity-free Integral-based Learning of Marked
 * ```output```: Generated during evaluation if not existing. All evaluation results go into this folder.
 
 ### Datasets:
-You can download all used datasets [here](). They should be placed in folder ```data/TPP```. Please create this folder if it does not exist. You can also generate your synthetic datasets using data generators in ```synthetic_data_gen```.
+You can download all used datasets [here](https://drive.google.com/drive/folders/1erRuwt2XF82fZFZeovktD1UcXVlFj01s?usp=sharing). They should be placed in folder ```data/TPP```. Please create this folder if it does not exist. You can also generate your synthetic datasets using data generators in ```synthetic_data_gen```.
 
 #### I want to train TPP models on my datasets.
 The format of the dataset used in this codebase is
@@ -81,11 +81,11 @@ You have two ways to start the training process.
 
 #### Step 3: Evaluate the model.
 
-After completing the model training or placing provided checkpoint in ```model```, you can evaluate these TPP models on various tasks. Like the training process, you have two ways to start the evaluation task: 1. directly use ```train.py```. Please refers to the python files in ```parameter_set/TPP``` and guides from ```python3 train.py TPP_plot --help```. 2. use ```batch_task_worker.py``` to execute multiple evaluation tasks one by one following the commands in ```parameter_set/TPP```. 
+After completing the model training or placing [provided checkpoint]() in ```model```, you can evaluate these TPP models on various tasks. Like the training process, you have two ways to start the evaluation task: 1. directly use ```train.py```. Please refers to the python files in ```parameter_set/TPP``` and guides from ```python3 train.py TPP_plot --help```. 2. use ```batch_task_worker.py``` to execute multiple evaluation tasks one by one following the commands in ```parameter_set/TPP```. 
 
 
 ### Q&As:
-1. What is ```CIFIB``` and ```IFIB```? 
+1. What is ```CIFIB``` and ```IFIB```?  
 ```CIFIB``` is the old name of ```IFIB-N```, while ```IFIB``` refers to ```IFIB-C```.
 The reason is we changed the name of two proposed model in the paper after we finished all experiments.
 

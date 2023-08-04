@@ -1,0 +1,14 @@
+{
+    "d_history": 32,
+    "d_intensity": 32,
+    "dropout": 0.0,
+    "history_module_layers": 1,
+    "mlp_layers": 2,
+    "nonlinear": "tanh",
+    "probability_threshold": 0.5,
+    "event_toggle": true,
+    "denominator_shift": 1e-20,
+    "pretrain": false,
+    "alpha": 1.0,
+    "beta": 0.25
+}

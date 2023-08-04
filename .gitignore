@@ -114,20 +114,15 @@ data/
 output*/
 raw_input/
 output/
-config/
 wandb/
 deprecated/
 checkpoint_archive/
 *.pkl
 
-# The test scripts
-scripts*/
-
 # probable existing tensorboard logfiles.
 events*
 
 # shell scripts
-*.sh
 
 # Figures
 *.png

@@ -1,0 +1,9 @@
+{
+    "input_size": 32,
+    "hidden_size": 32,
+    "history_encoder_layers": 1,
+    "dropout": 0,
+    "output_size": 32,
+    "event_toggle": true,
+    "limited_history_norm": true
+}

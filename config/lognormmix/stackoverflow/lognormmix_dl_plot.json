@@ -1,0 +1,7 @@
+{
+    "input_norm_data": true,
+    "inception_shift": true,
+    "start_time": 0,
+    "end_time": 10000,
+    "plot": true
+}

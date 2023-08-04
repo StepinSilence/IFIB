@@ -1,0 +1,5 @@
+{
+    "context_size": 32,
+    "mark_embedding_size": 32,
+    "num_mix_components": 32
+}

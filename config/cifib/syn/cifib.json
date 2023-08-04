@@ -1,0 +1,15 @@
+{
+    "d_history": 32,
+    "d_expression": 32,
+    "d_pro_integral": 64,
+    "dropout": 0.0,
+    "history_module_layers": 1,
+    "mlp_layers": 3,
+    "nonlinear": "tanh",
+    "probability_threshold": 0.5,
+    "continuous_mark_upperbound": [1, 1], 
+    "continuous_mark_lowerbound": [-1, -1],
+    "pretrain": false,
+    "alpha": 0.5,
+    "beta": 0.1
+}
