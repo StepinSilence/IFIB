@@ -1,6 +1,6 @@
 # Intensity-free Integral-based Learning of Marked Temporal Point Processes
 
-This is the codebase for paper [Intensity-free Integral-based Learning of Marked Temporal Point Processes]().
+This is the codebase for paper [Intensity-free Integral-based Learning of Marked Temporal Point Processes](https://arxiv.org/abs/2308.02360).
 
 
 ### Directory Structure
@@ -81,7 +81,7 @@ You have two ways to start the training process.
 
 #### Step 3: Evaluate the model.
 
-After completing the model training or placing [provided checkpoint]() in ```model```, you can evaluate these TPP models on various tasks. Like the training process, you have two ways to start the evaluation task: 1. directly use ```train.py```. Please refers to the python files in ```parameter_set/TPP``` and guides from ```python3 train.py TPP_plot --help```. 2. use ```batch_task_worker.py``` to execute multiple evaluation tasks one by one following the commands in ```parameter_set/TPP```. 
+After completing the model training or placing [provided checkpoint](https://drive.google.com/drive/folders/17ILH3vZGWDSLIPkx1a0xWQ6HcRm9uCJs?usp=sharing) in ```model```, you can evaluate these TPP models on various tasks. Like the training process, you have two ways to start the evaluation task: 1. directly use ```train.py```. Please refers to the python files in ```parameter_set/TPP``` and guides from ```python3 train.py TPP_plot --help```. 2. use ```batch_task_worker.py``` to execute multiple evaluation tasks one by one following the commands in ```parameter_set/TPP```. 
 
 
 ### Q&As:
